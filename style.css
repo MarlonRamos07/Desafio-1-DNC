@@ -1,0 +1,192 @@
+/*Estilizando o fundo e a altura da div Header */
+#Header
+{
+
+    background-color: #303030;
+    width:100%px;
+    height:375px;
+    
+}
+/*Estilizando o H1 / Titulo da div Header */
+#Header h1
+{
+    
+    font-family: Inter;
+    font-size:60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color:white;
+    padding-top:142px;
+    margin-left:40px;
+}
+/* Aqui tirei toda a margem e o padding da pagina para a Div Header poder ocupar 100% da largura desejada */
+*{
+    margin:0;
+    padding:0;
+}
+/* De resto, somente estilizaçao */
+#Header p{
+
+    color:white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left:50px;
+
+
+
+}
+#Painel
+{
+
+    background-color: #f9f9f9;
+    color:#000000;
+    display:grid;
+    flex-wrap:wrap;
+    text-align:center;
+    grid-auto-flow: column;
+    padding-top:65px;
+    padding-bottom:60px;
+    padding-left:97px;
+
+    
+    
+}
+.TextoInformativo{
+
+    padding:px;
+    margin-left:70px;
+    text-align:left;
+    
+}
+.TextoInformativo h1{
+
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.TextoInformativo p{
+  
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top:3px;
+}
+/* A partir daqui tive diversos problemas para entender como se concluiria essa parte, mas voltei umas aulas, fiz o mesmo processo de grid, e deu certo! */
+#MenuDoMeio{
+    background-color:white;
+    padding-top:200px;
+    margin-left:40px;
+    display:grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-right:30px;
+    margin-bottom:100px;
+    text-align: center;
+}
+#TextoMeio{
+
+    width: 800px;
+    height: 170px;
+    margin-left: 77px;
+}
+#TextoMeio h1{
+    font-family: Inter;
+    font-size:39px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+#TextoMeio p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+#Formulario{
+
+    text-align: center;
+    background-color:#303030;
+    height: 638px;
+}
+
+#TituloFormulario{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    padding-top:100px;
+    
+}
+input{
+
+    width: 488px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin:25px;
+    border:0px;
+    border-radius:5px;
+    padding-left:10px;
+    
+}
+
+#placeholder-text{
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+#placeholder-email{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+button{
+
+    background-color:#C07212;
+    height: 72px;
+    width:258px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    border:0px;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #da8a28;
+    color:white;
+    transform:translateY(-4px);
+    box-shadow:0px 15px 20px #7c4e16;
+    transition-duration: 0.5s;
+}
